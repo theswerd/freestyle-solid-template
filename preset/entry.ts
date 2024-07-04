@@ -28,6 +28,6 @@ async function handler(request: Request, info: any) {
   }
 
 Deno.serve({
-    port: 6969
+    port: 8000
 }, handler);
-console.log("Server started on port 6969");
+console.log("Server started on port 8000");
